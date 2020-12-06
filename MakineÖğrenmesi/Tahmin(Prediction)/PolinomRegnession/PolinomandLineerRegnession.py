@@ -54,7 +54,7 @@ print(lin_reg.predict([[80]]))
 
 # Polynomial Regression
 from sklearn.preprocessing import PolynomialFeatures
-poly_reg = PolynomialFeatures(degree = 2)
+poly_reg = PolynomialFeatures(degree = 5)
 
 X_poly = poly_reg.fit_transform(x)
 
@@ -77,5 +77,8 @@ def polynomialRegressionVisual():
     return
 polynomialRegressionVisual()
 
-print(pol_reg.predict(poly_reg.fit_transform([[80]])))
+
+print(pol_reg.predict(poly_reg.fit_transform([[250]])))
+
 # Out: 43.10018674
+
