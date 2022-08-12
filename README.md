@@ -3,4 +3,4 @@ Machine Learning Library
 
 
 
-Çocucklar için python ve makine öğrenmesi tabanlı geliştirme için basit kodlar yazmaktayım.
+Python ve makine öğrenmesi tabanlı geliştirme için basit kodlar yazmaktayım.
